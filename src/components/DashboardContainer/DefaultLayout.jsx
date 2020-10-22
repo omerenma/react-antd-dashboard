@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Layout, Menu, Avatar, Breadcrumb} from 'antd'
 import {User} from '../../icons/icons'
+import Table from './Table'
 import {
     MenuUnfoldOutlined,
     MenuFoldOutlined,
@@ -76,7 +77,7 @@ class DefaultLayout extends Component {
                         height:'100vh'
                         }}
                         >
-                            Content
+                            <Table />
                         </Content>
 
                     </Layout>
